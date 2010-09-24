@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'bm_tablesort'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.tx_bmtablesort_sortsheet">Sorting &amp; Pagination</label>
+			<label index="tt_content.tx_bmtablesort_sortable">Sortable table</label>
+			<label index="tt_content.tx_bmtablesort_pagination_rows">Pagination: table rows</label>
+			<label index="tt_content.tx_bmtablesort_pagination_pages">Pagination: number of pages</label>
+			<label index="tt_content.tx_bmtablesort_headertypes">Header sorting types
+(delimiter: |  values: [none,text,numeric,date,date-dmy,currency] )</label>
+			<label index="tt_content.tx_bmtablesort_headerpos">Header column alignment
+(delimiter: |  values: [left,center,right] )</label>
+			<label index="tt_content.tx_bmtablesort_contentpos">Content column alignment
+(delimiter: |  values: [left,center,right] )</label>
+			<label index="tt_content.tx_bmtablesort_sortonload">column sorted on load</label>
+			<label index="tt_content.tx_bmtablesort_sortonload_reverse">Reverse sort onload columne</label>
+			<label index="tt_content.tx_bmtablesort_zebrastriping">Zebra striping</label>
+			<label index="tt_content.tx_bmtablesort_highlightcurrentcol">Highlight current sorted column</label>
+			<label index="fe.hover_text_before">Sort on this \u201c</label>
+			<label index="fe.hover_text_after">\u201d</label>
+			<label index="fe.first_page">1First Page</label>
+			<label index="fe.previous_page">2Previous Page (Page %p)</label>
+			<label index="fe.next_page">Next Page (Page %p)</label>
+			<label index="fe.last_page">Last Page (Page %t)</label>
+			<label index="fe.page_of_pages">3Page %p of %t</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tt_content.tx_bmtablesort_sortsheet">Sortieren &amp; Seitennummerierung</label>
+			<label index="tt_content.tx_bmtablesort_sortable">Sortierbare Tabelle</label>
+			<label index="tt_content.tx_bmtablesort_pagination_rows">Seitennummerierung: Tabellen Zeilen</label>
+			<label index="tt_content.tx_bmtablesort_pagination_pages">Seitennummerierung: Maximale Seitenanzahl</label>
+			<label index="tt_content.tx_bmtablesort_headertypes">Sortiertypen (seperiert mit |  Werte: [none,text,numeric,date,date-dmy,currency] )</label>
+			<label index="tt_content.tx_bmtablesort_headerpos">Kopfzeilen Ausrichtung (seperiert mit |  Werte: [left,center,right] )</label>
+			<label index="tt_content.tx_bmtablesort_contentpos">Körperzeilen Ausrichtung (seperiert mit |  Werte: [left,center,right] )</label>
+			<label index="tt_content.tx_bmtablesort_sortonload">Spalte die beim Laden sortiert werden soll</label>
+			<label index="tt_content.tx_bmtablesort_sortonload_reverse">Rückwärtssortieren der OnLoad Spalte</label>
+			<label index="tt_content.tx_bmtablesort_zebrastriping">Zebrastreifenmuster</label>
+			<label index="tt_content.tx_bmtablesort_highlightcurrentcol">Markieren der sortierten Spalte</label>
+			<label index="fe.hover_text_before">Sortieren nach \u201c</label>
+			<label index="fe.hover_text_after">\u201d</label>
+			<label index="fe.first_page">Erste Seite</label>
+			<label index="fe.previous_page">Vorhergehende Seite (Seite %p)</label>
+			<label index="fe.next_page">Nächste Seite (Seite %p)</label>
+			<label index="fe.last_page">Letzte Seite (Seite %t)</label>
+			<label index="fe.page_of_pages">Seite %p von %t</label>
+		</languageKey>
+	</data>
+</T3locallang>

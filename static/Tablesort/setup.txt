@@ -1,0 +1,67 @@
+
+plugin.tx_bmtablesort._CSS_DEFAULT_STYLE (
+
+
+)
+page.headerData.1234 = TEXT
+page.headerData.1234.value (
+<!--[if IE]>
+<style type="text/css">
+ul.fdtablePaginater {display:inline-block;}
+ul.fdtablePaginater {display:inline;}
+ul.fdtablePaginater li {float:left;}
+ul.fdtablePaginater {text-align:center;}
+table { border-bottom:1px solid #C1DAD7; }
+</style>
+<![endif]-->
+)
+
+[globalVar = LIT:original = {$plugin.tx_bmtablesort.useCSS}]
+page.headerData.1235 = TEXT
+page.headerData.1235.value = <link href="typo3conf/ext/bm_tablesort/res/tablesort/tablesort_orginal.css" type="text/css" rel="stylesheet"/>
+[global]
+
+[globalVar = LIT:typo3 = {$plugin.tx_bmtablesort.useCSS}]
+page.headerData.1236 = TEXT
+page.headerData.1236.value = <link href="typo3conf/ext/bm_tablesort/res/typo3/tablesort_typo3.css" type="text/css" rel="stylesheet"/>
+[global]
+
+
+tt_content.table.20 {
+    sortable = COA
+    sortable {
+        defaultClassNames {
+            highlightCurCol = alt
+            zebraStripRow = alt
+        }
+
+        debugClassName = 0
+
+        lang_hover_text_before = TEXT
+        lang_hover_text_before.data = LLL:EXT:bm_tablesort/locallang_db.xml:fe.hover_text_before
+
+        lang_hover_text_after = TEXT
+        lang_hover_text_after.data = LLL:EXT:bm_tablesort/locallang_db.xml:fe.hover_text_after
+
+        lang_first_page = TEXT
+        lang_first_page.data = LLL:EXT:bm_tablesort/locallang_db.xml:fe.first_page
+
+        lang_previous_page = TEXT
+        lang_previous_page.data = LLL:EXT:bm_tablesort/locallang_db.xml:fe.previous_page
+
+        lang_next_page = TEXT
+        lang_next_page.data = LLL:EXT:bm_tablesort/locallang_db.xml:fe.next_page
+
+        lang_last_page = TEXT
+        lang_last_page.data = LLL:EXT:bm_tablesort/locallang_db.xml:fe.last_page
+
+        lang_page_of_pages = TEXT
+        lang_page_of_pages.data = LLL:EXT:bm_tablesort/locallang_db.xml:fe.page_of_pages
+
+    }
+
+}
+
+
+
+

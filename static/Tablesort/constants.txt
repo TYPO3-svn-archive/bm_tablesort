@@ -1,0 +1,7 @@
+plugin.tx_bmtablesort {
+
+    #cat=Plugin.Sortable Tables//; type=string; label=Defines which predefined CSS stylesheet should be used. Options none,typo3,original
+     useCSS = typo3
+
+
+}

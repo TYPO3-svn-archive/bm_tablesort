@@ -1,0 +1,308 @@
+/*** Text Styles ***/
+h1 {
+    color:#ADADAD;
+    font-size:20px;
+    font-style:oblique;
+    font-weight:normal;
+    letter-spacing:-1px;
+    line-height:22px;
+    margin:0pt auto 32px;
+    text-align:center;
+    width:600px;
+}
+h2 {
+    color:#AAAAAA;
+    font-size:17px;
+    font-style:oblique;
+    font-weight:normal;
+    line-height:19px;
+    margin:0pt auto 12px;
+    text-align:center;
+    width:600px;
+}
+h3 {
+    color:#999999;
+    font-size:16px;
+    font-style:bold;
+    font-weight:normal;
+    line-height:18px;
+    margin:0pt auto 12px;
+    text-align:center;
+    width:600px;
+}
+
+h1, h2, h3 {
+    font-family:Cambria,Georgia,"Times New Roman",serif;
+}
+p {
+    font-family:Cambria,Georgia,"Times New Roman",serif;
+    color:#999999;
+    font-size:13px;
+    font-weight:normal;
+    letter-spacing:1px;
+    text-align:center;
+}
+
+
+/*** Table ***/
+
+
+
+
+table {
+        border-collapse:collapse;
+        border-left:1px solid #C1DAD7;
+        margin:0pt auto 1.5em;
+        padding:0pt;
+        width:auto;
+}
+.cs1 {
+        width:30em;
+}
+.cs2 {
+        width:20em;
+}
+.cs1 td, .cs2 td, #scientificNotation {
+        text-align:right;
+}
+caption {
+        font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size:11px;
+        font-size-adjust:none;
+        font-stretch:normal;
+        font-style:italic;
+        font-variant:normal;
+        font-weight:normal;
+        line-height:normal;
+        margin:0pt auto;
+        padding:0pt 0pt 5px;
+        text-align:right;
+        width:auto;
+}
+th {
+    background:#CAE8EA url(img/bg_header.jpg) no-repeat scroll 0%;
+        border-bottom:1px solid #C1DAD7;
+        border-right:1px solid #C1DAD7;
+        border-top:1px solid #C1DAD7;
+        color:#4F6B72;
+        font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size:10px;
+        font-size-adjust:none;
+        font-stretch:normal;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:bold;
+        letter-spacing:1px;
+        line-height:22px;
+        padding:8px 12px 4px;
+        text-align:center;
+        text-transform:uppercase;
+        vertical-align:middle;
+}
+th.left {
+        text-align:left;
+}
+th.right {
+        text-align:right;
+}
+
+td.total {
+        background:transparent none repeat scroll 0%;
+        border-left:0pt none;
+        border-right:1px solid #C1DAD7;
+        border-top:0pt none;
+        font-weight:bold;
+        letter-spacing:1px;
+        text-align:right;
+        text-transform:uppercase;
+}
+th.sortable, th.sortable-text, th.sortable-date, th.sortable-keep, th.sortable-date-dmy, th.sortable-numeric, th.sortable-currency, th.sortable-sortByTwelveHourTimestamp, th.sortable-sortIPAddress, th.sortable-sortEnglishLonghandDateFormat, th.sortable-sortScientificNotation, th.sortable-sortImage, th.sortable-sortFileSize {
+    background:#CAE8EA url(img/bg_header_sortable.jpg) no-repeat scroll 0%;
+        cursor:pointer;
+        padding:8px 12px 4px 16px;
+}
+th.forwardSort {
+    background:#CAE8EA url(img/bg_header_down.jpg) no-repeat scroll 0pt;
+}
+th.reverseSort {
+    background:#CAE8EA url(img/bg_header_up.jpg) no-repeat scroll 0pt;
+}
+table thead th.forwardSort a, table thead th.reverseSort a {
+        color:#000000;
+        text-decoration:none;
+}
+th a {
+        background:transparent none repeat scroll 0%;
+        color:#4F6B72;
+        text-decoration:none;
+}
+td a {
+        background:transparent none repeat scroll 0%;
+        color:#223399;
+        text-decoration:none;
+}
+td img {
+        border:3px solid #DDDDDD;
+        margin:0pt auto;
+}
+td a:hover {
+        background:transparent none repeat scroll 0%;
+        border-bottom:1px dotted #A80000;
+        color:#A84444;
+}
+td {
+        border-bottom:1px solid #C1DAD7;
+        border-right:1px solid #C1DAD7;
+        color:#4F6B72;
+        font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size:11px;
+        font-size-adjust:none;
+        font-stretch:normal;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:normal;
+        line-height:normal;
+        padding:6px 12px;
+        text-align: center;
+}
+
+td.left {
+        text-align:left;
+}
+td.right {
+        text-align:right;
+}
+
+td.alternate {
+        background:#dddddd none repeat scroll 0%;
+}
+
+tr.alt {
+        background:#F5FAFA none repeat scroll 0%;
+        color:#797268;
+}
+tr[class="alt"] td {
+    background:#F5FAFA url(img/td_alt.jpg) no-repeat scroll 0%;
+}
+
+tr[class="alt"] td.alternate {
+        background:#aaaaaa none repeat scroll 0%;
+}
+
+td[class~="alt"] {
+    background:#EDF3F3 url(img/col_alt.jpg) no-repeat scroll 0% !important;
+}
+tbody tr.alt td:first-child {
+    background:#F5FAFA url(img/bullet2.gif) no-repeat scroll 0% 2px;
+        font-weight:bold;
+}
+tbody tr td:first-child {
+    background:#FFFFFF url(img/bullet1.gif) no-repeat scroll 0% 2px;
+        font-weight:bold;
+}
+* html tr.alt td {
+        background-color:#F5FAFA;
+}
+* html tr td.alt, * html tr.alt td.alt {
+        background-color:#EDF3F3;
+}
+
+/*** Pagination list styles ***/
+ul.fdtablePaginater
+{
+    display:table;
+    list-style:none;
+    padding:0;
+    margin:0 auto;
+    text-align:center;
+    height:2em;
+    width:auto;
+    margin-bottom:2em;
+}
+ul.fdtablePaginater li
+{
+    display:table-cell;
+    padding-right:4px;
+    color:#666;
+    list-style:none;
+
+    -moz-user-select:none;
+    -khtml-user-select:none;
+}
+ul.fdtablePaginater li a.currentPage
+{
+    border-color:#a84444 !important;
+    color:#000;
+}
+ul.fdtablePaginater li a:active
+{
+    border-color:#222 !important;
+    color:#222;
+}
+ul.fdtablePaginater li a,
+ul.fdtablePaginater li div
+{
+    display:block;
+    width:2em;
+    font-size:1em;
+    color:#666;
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    outline:none;
+    border:1px solid #ccc;
+    font-family:georgia, serif;
+}
+ul.fdtablePaginater li div
+{
+    cursor:normal;
+    opacity:.5;
+    filter:alpha(opacity=50);
+}
+ul.fdtablePaginater li a span,
+ul.fdtablePaginater li div span
+{
+    display:block;
+    line-height:2em;
+    border:1px solid #fff;
+    background:#fff url(img/gradient.jpg) repeat-x 0 0px;
+}
+ul.fdtablePaginater li a
+{
+    cursor:pointer;
+}
+ul.fdtablePaginater li a:focus
+{
+    color:#333;
+    text-decoration:none;
+    border-color:#aaa;
+}
+.fdtablePaginaterWrap
+{
+    text-align:center;
+    clear:both;
+    text-decoration:none;
+}
+ul.fdtablePaginater li .next-page span,
+ul.fdtablePaginater li .previous-page span,
+ul.fdtablePaginater li .first-page span,
+ul.fdtablePaginater li .last-page span
+{
+    font-weight:bold !important;
+}
+/* Keep the table columns an equal size during pagination */
+td.sized1
+{
+    width:16em;
+    text-align:left;
+}
+td.sized2
+{
+    width:10em;
+    text-align:left;
+}
+td.sized3
+{
+    width:7em;
+    text-align:left;
+}
